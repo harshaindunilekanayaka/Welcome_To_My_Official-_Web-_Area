@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ᗯEᒪᑕOᗰE TO ᗰY OᖴᖴIᑕIᗩᒪ ᗯEᗷ ᗩᖇEᗩ...</title>
+    <link rel="icon" href="images/icon1.ico">
+    <link rel="stylesheet" href="style.css"/>
+
+    <script src="https://kit.fontawesome.com/13d0e835a0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+     <div class="container">
+        <nav>
+            <img src="images/lg2.jpeg"  class="logo">
+            <ul id="sidemenu">
+                 <li><a href="#header">HOME</a></li>
+                 <li><a href="#about">ABOUT</a></li>
+                 <li><a href="#services">SERVICE</a></li>
+                 <li><a href="#contact">CONTACT</a></li>
+                 <li><a href="#portfolio">PORTFOLIO</a></li>
+                 <i class="fa-solid fa-rectangle-xmark" id="f" onclick="closemenu();"></i>
+            </ul>
+
+            <i class="fa-solid fa-bars" id="f" onclick="openmenu();"></i>
+
+        </nav>
+        <div class="header-text">
+            <p>Web Developer and Designer...,</p>
+            <h1>Hi...!, I'm <span>HARSHA</span><br> EKANAYAKA From <br>Sri Lanka...</h1>
+        </div>
+     </div>
+   </div> 
+
+   <!-- about -->
+
+   <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/pro.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me...,</h1>
+                    <p class="my">" I am E.M. Harsha Ekanayake And I am 20 years old.I live in Kurunegala 
+                        district of Sri Lanka. I have finished my schooling and am currently pursuing a 
+                        software engineering degree. In this course, I am using the things I have learned
+                         so far to conduct new tests and produce new products. In the meantime, I have started
+                          my own personal business in this way. Also, I am working as a Full Stack Web Developer 
+                          at "Stranger Software Solutions<sup class="tm">TM</sup>" which I am a member of..."</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills');">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience');">Experience</p>
+                        <p class="tab-links" onclick="opentab('education');">Education</p>
+                    </div>
+                <div class="tab-contents active-tab" id="skills">
+                   <ul>
+                      <li><span>Web Applications</span><br>Full stack Web Designing And Developing</li>
+                      <li><span>Mobile App Development</span><br>Android And iOS Apps</li>
+                      <li><span>Editing</span><br>Creative Video And Photo Editing</li>
+                      <li><span>Electronics</span><br>Robotic And IOT</li>
+                      <li><span>Computer Hardware</span><br>Assembling And Repairing</li>
+                      <li><span>Language Skills</span><br>Fully Skilled About Programing Languages (HTML,CSS,JAVAscript,PHP,JAVA,Python).</li>
+                   </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                       <li><span>2023 - CURRENT</span><br>Working as a Full Stack Web Developer 
+                        at "Stranger Software Solutions<sup class="tm">TM</sup>" Companey...</li>
+                       <li><span>2019 - 2022</span><br>Worked as a group leader in the ICT club of  Ku\ Maliyadeva Adarsha College....</li>
+                       <li><span>Computer Hardware</span><br>After studying a special course in Computer Hardware for a year, I have worked as a Master Tcechnician in a famous computer store in Sri Lanka for more than a year.</li>
+                       
+                    </ul>
+                 </div>
+
+                 <div class="tab-contents" id="education">
+                    <ul>
+                       <li><span>2022 - CURRENT</span><br>BSc Hons Full Stack Software  Engineering
+                        : Java Institute For Advance
+                        Technology
+                        </li>
+                       <li><span>2018 - CURRENT</span><br>
+                        Self-studing about Robotics,
+                        Electronics, IOT, and Web
+                        Development.
+                        </li>
+                       
+                       <li><span>School Education</span><br>Studied ICT(Information And Communication Technology) 
+                        subject for G.E.C. and obtained A pass... 
+                        </li>
+                    </ul>
+                 </div>
+
+                </div>
+            </div>
+        </div>
+   </div>
+
+   <!-- service -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Service...,</h1>
+          <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Applications Designing/Programming ,</h2>
+                <p>I will create a complete website or web Application
+                     to suit your personal business or any other needs.It will help you do most of your work efficiently and easily. I will take care of all its maintenance and I will be fully responsible for any malfunctions.</p>
+                <a href="#">Learn More</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <h2>Mobile App Designing/Developing ,</h2>
+                <p>I have developed many software for android and IOS operating systems. Even now, the software developed by me is used by several famous organizations in Sri Lanka for the convenience of their business activities.</p>
+                <a href="#">Learn More</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-robot"></i>
+                <h2>Robotics And IOT Projects Developing ,</h2>
+                <p>Many of my friends who are studying with me, including myself, are studying this subject very hard and as a result, several group projects have been published...</p>
+                <a href="#">Learn More</a>
+            </div>
+
+          </div>
+    </div>
+</div>
+
+<!-- portfolio -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Activities...,</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.jpg">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>With this App You Can Instantly Connect With Any Person From All Over The World.And I'm Sure This Makes It Easy For You To Build New Personal Relationships As Well As Many Needs Of Business And Other Daily Life...</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/work-2.jpg">
+                <div class="layer">
+                    <h3>E-Commerce Web Applications </h3>
+                    <p>If There Is No Facility Like This, It Is Never Easy To Move Forward With The Market Competition. Therefore, With The Aim Of Improving The Business Life Of a Large Group Of Entrepreneurs, I Prepare Efficient, Accurate And Up-to-Date Web Applications Like This....</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/work-3.jpg">
+                <div class="layer">
+                    <h3>Robotic And IOT Projects</h3>
+                    <p>In The World That Is Progressing Day By Day, The Most Attention Is Paid To The Concept Of Artificial Intelligence. I Am Also Doing Some Research In This Regard And Making New Inventions Through The Subject Of Robotics And IOT (Internet of Things)...</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+         <a href="#" class="btn">See More</a>
+
+    </div>
+</div>
+
+<!-- contact -->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Join With Me...,</h1>
+            <p> <i class="fa-regular fa-paper-plane"></i>harshaekanayaka13@gmail.com</p>
+            <p><i class="fa-solid fa-phone-volume"></i>0719549834 / 0372238176</p>
+
+            <div class="social-ico">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                <a href="https://web.whatsapp.com/"><i class="fa-brands fa-square-whatsapp"></i></a>
+                <a href=""><i class="fa-brands fa-viber"></i></a>
+            </div>
+
+              <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+
+        </div>
+        <div class="contact-right">
+            <form>
+                <input type="text" name="name" placeholder="Your Name Here" required>
+                <input type="email" name="email" placeholder="Your Email Here" required>
+                <textarea name="massage" rows="6" placeholder="Type Your Massage"></textarea>
+                <button type="submit" class="btn btn2">SUBMIT</button>
+            </form>
+        </div>
+    </div>
+  </div>
+
+<div class="copyright">
+    <p>Copyright | <i class="fa-regular fa-copyright"></i>  | [CREATOR : E.M.H.I Ekanayaka] [2023]. All rights reserved.</p>
+</div>
+
+</div>
+
+ <script src="script.js"></script>  
+</body>
+</html>
